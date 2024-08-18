@@ -70,10 +70,16 @@ dependencies {
     debugImplementation(libs.androidx.ui.test.manifest)
 
     implementation(libs.work.manager)
+    implementation(libs.work.manager.dagger)
+    kapt(libs.work.manager.dagger.kapt)
+    implementation(libs.hilt.compose.navigation)
 
     implementation(libs.dagger.hilt)
     kapt(libs.dagger.kapt)
 
     implementation(libs.retrofit)
     implementation(libs.retrofit.gson.convertor)
+
+    implementation(libs.room.ktx)
+    kapt(libs.room.compiler)
 }

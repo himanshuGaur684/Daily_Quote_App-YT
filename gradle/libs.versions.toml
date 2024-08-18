@@ -43,6 +43,10 @@ kotlinx-serialization = { module = "org.jetbrains.kotlinx:kotlinx-serialization-
 retrofit = { module = "com.squareup.retrofit2:retrofit", version = "2.9.0" }
 retrofit-gson-convertor = { module = "com.squareup.retrofit2:converter-gson", version = "2.9.0" }
 
+#room-database
+room = { module = "androidx.room:room-runtime", version = "2.6.1" }
+room-ktx = { module = "androidx.room:room-ktx", version = "2.6.1" }
+room-compiler = { module = "androidx.room:room-compiler", version = "2.6.1" }
 
 [plugins]
 android-application = { id = "com.android.application", version.ref = "agp" }
